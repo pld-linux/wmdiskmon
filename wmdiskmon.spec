@@ -2,7 +2,7 @@ Summary:	A dockapp to monitor disks usage
 Summary(pl):	Aplet monitoruj±cy zajêto¶æ dysków
 Name:		wmdiskmon
 Version:	0.0.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://tnemeth.free.fr/projets/programmes/%{name}-%{version}.tar.gz
@@ -10,6 +10,7 @@ Source0:	http://tnemeth.free.fr/projets/programmes/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 URL:		http://tnemeth.free.fr/projets/dockapps.html
 BuildRequires:	XFree86-devel
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -22,6 +23,7 @@ wmdiskmon jest apletem monitoruj±cym zajêto¶æ dysków.
 %setup -q
 
 %build
+cp -f %{_datadir}/automake/config.sub .
 %configure
 %{__make}
 
