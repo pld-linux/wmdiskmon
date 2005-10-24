@@ -23,7 +23,7 @@ wmdiskmon jest apletem monitoruj±cym zajêto¶æ dysków.
 %setup -q
 
 %build
-cp -f %{_datadir}/automake/config.sub .
+cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
