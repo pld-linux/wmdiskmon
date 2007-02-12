@@ -1,5 +1,5 @@
 Summary:	A dockapp to monitor disks usage
-Summary(pl):	Aplet monitoruj±cy zajêto¶æ dysków
+Summary(pl.UTF-8):   Aplet monitorujÄ…cy zajÄ™toÅ›Ä‡ dyskÃ³w
 Name:		wmdiskmon
 Version:	0.0.2
 Release:	1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 wmdiskmon is a dockapp to monitor disks usage.
 
-%description -l pl
-wmdiskmon jest apletem monitoruj±cym zajêto¶æ dysków.
+%description -l pl.UTF-8
+wmdiskmon jest apletem monitorujÄ…cym zajÄ™toÅ›Ä‡ dyskÃ³w.
 
 %prep
 %setup -q
