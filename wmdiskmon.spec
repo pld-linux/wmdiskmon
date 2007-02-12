@@ -1,5 +1,5 @@
 Summary:	A dockapp to monitor disks usage
-Summary(pl.UTF-8):   Aplet monitorujący zajętość dysków
+Summary(pl.UTF-8):	Aplet monitorujący zajętość dysków
 Name:		wmdiskmon
 Version:	0.0.2
 Release:	1
