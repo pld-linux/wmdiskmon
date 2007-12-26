@@ -1,5 +1,4 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=wmdiskmon
 Comment=Disks usage monitor
 Comment[pl]=Monitor zajętości dysków
@@ -9,4 +8,3 @@ Type=Application
 Categories=Applet;
 NotShowIn=GNOME;KDE;
 # vi: encoding=utf-8
-
